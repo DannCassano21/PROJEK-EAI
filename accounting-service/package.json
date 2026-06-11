@@ -1,17 +1,17 @@
 {
-  "name": "pos-service",
+  "name": "accounting-service",
   "version": "1.0.0",
-  "description": "POS service for retail enterprise integration project",
+  "description": "Accounting service for retail enterprise integration project",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js"
   },
   "dependencies": {
-    "amqplib": "^0.10.5",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "swagger-ui-express": "^5.0.1",
